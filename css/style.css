@@ -1,0 +1,91 @@
+/*!
+ * Start Bootstrap - Business Frontpage v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+@import url("https://fonts.googleapis.com/css?family=Raleway:600");
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Raleway', sans-serif;
+  width: 100vw;
+  overflow-x: hidden; }
+
+img.logo {
+  height: 10vh;
+  width: 150px; }
+
+nav.navbar {
+  padding: 0;
+  margin: 0; }
+  nav.navbar li.nav-item a.nav-link {
+    padding: 30px 15px;
+    font-weight: bolder; }
+  nav.navbar li.nav-item:nth-child(1):hover, nav.navbar li.nav-item:nth-child(1):active, nav.navbar li.nav-item:nth-child(1):focus {
+    color: white;
+    background-color: rgba(235, 48, 48, 0.8); }
+  nav.navbar li.nav-item:nth-child(2):hover, nav.navbar li.nav-item:nth-child(2):active, nav.navbar li.nav-item:nth-child(2):focus {
+    color: white;
+    background-color: rgba(238, 202, 43, 0.8); }
+  nav.navbar li.nav-item:nth-child(3):hover, nav.navbar li.nav-item:nth-child(3):active, nav.navbar li.nav-item:nth-child(3):focus {
+    color: white;
+    background-color: rgba(48, 235, 64, 0.8); }
+  nav.navbar li.nav-item:nth-child(4):hover, nav.navbar li.nav-item:nth-child(4):active, nav.navbar li.nav-item:nth-child(4):focus {
+    color: white;
+    background-color: rgba(48, 51, 235, 0.8); }
+
+.navbar-nav > li.nav-item > a.nav-link,
+.navbar-nav > li.nav-item > a.nav-link {
+  font-weight: bolder; }
+  .navbar-nav > li.nav-item > a.nav-link:focus,
+  .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #333; }
+  .navbar-nav > li.nav-item > a.nav-link:hover,
+  .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: white; }
+
+header.business-header {
+  height: 70vh;
+  min-height: 300px;
+  overflow-x: hidden; }
+  header.business-header div.picture {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), transparent), url("../img/masthead1.jpg") center center no-repeat scroll;
+    position: absolute;
+    left: 0;
+    height: 70vh;
+    background-size: cover;
+    min-height: 300px; }
+  header.business-header div.picture1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), transparent), url("../img/masthead2.jpeg") center center no-repeat scroll;
+    position: absolute;
+    left: 0;
+    height: 70vh;
+    background-size: cover;
+    min-height: 300px; }
+  header.business-header div.picture2 {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), transparent), url("../img/masthead3.jpeg") center center no-repeat scroll;
+    position: absolute;
+    left: 0;
+    height: 70vh;
+    background-size: cover;
+    min-height: 300px; }
+  header.business-header h1, header.business-header h3 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.1); }
+  header.business-header h1 {
+    padding-top: 7vh;
+    text-transform: uppercase; }
+  header.business-header hr {
+    width: 50vw;
+    border-width: 1px;
+    border-color: white; }
+
+.card {
+  height: 100%; }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px; } }

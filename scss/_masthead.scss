@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600');
+
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+ body {
+    
+
+    font-family: 'Raleway', sans-serif;
+    
+    
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  img.logo{
+    height: 10vh;
+    width: 150px;
+    
+   }
+
+   nav.navbar{
+    li.nav-item{
+        a.nav-link{
+            padding: 30px 15px;
+            font-weight: bolder;
+        }
+        &:nth-child(1){
+            &:hover,&:active,&:focus{
+                color:white;
+                background-color: rgba(235, 48, 48, .8);
+            }
+        }
+        &:nth-child(2){
+            &:hover,&:active,&:focus{
+                color:white;
+                background-color: rgba(238, 202, 43, .8);
+            }
+        }
+        &:nth-child(3){
+            &:hover,&:active,&:focus{
+                color:white;
+                background-color: rgba(48, 235, 64, .8);
+            }
+        }
+        &:nth-child(4){
+            &:hover,&:active,&:focus{
+                color:white;
+                background-color: rgba(48, 51, 235, .8);
+            }
+        }
+
+
+    }
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar-nav > li.nav-item > a.nav-link,
+.navbar-nav > li.nav-item > a.nav-link{
+    font-weight: bolder;
+&:focus {
+  color: #333;
+}
+  &:hover {
+    color: rgb(255,255,255);
+  }
+}
+
+  header.business-header {
+    //width: 100vw;
+    height: 70vh;
+    min-height: 300px;
+    overflow-x: hidden;
+
+    div.picture{
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3), transparent), url('../img/masthead1.jpg') center center no-repeat scroll;
+        position: absolute;
+        left: 0;
+        height: 70vh;
+        background-size: cover;
+        min-height: 300px;
+    }
+
+    div.picture1{
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3), transparent), url('../img/masthead2.jpeg') center center no-repeat scroll;
+        position: absolute;
+        left: 0;
+        height: 70vh;
+        background-size: cover;
+        min-height: 300px;
+    }
+
+    div.picture2{
+        background: linear-gradient(to bottom right,rgba(0,0,0,0.3), rgba(0,0,0,0.3), transparent), url('../img/masthead3.jpeg') center center no-repeat scroll;
+        position: absolute;
+        left: 0;
+        height: 70vh;
+        background-size: cover;
+        min-height: 300px;
+    }
+
+    h1,h3{
+        
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgba(0,0,0,0.1);
+    }
+
+    h1{
+        padding-top: 7vh;
+        text-transform: uppercase;
+    }
+
+
+    hr{
+        width: 50vw;
+        border-width: 1px;
+        border-color:white;
+    }
+   
+  
+}
+
+.card {
+  height: 100%;
+}
+ 
+// img.logo{
+//     // height: 15vh;
+//     // width: 100px;
+//     // margin: 0;
+//     // padding: 0;
+//     display: none;
+//    }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
