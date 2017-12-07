@@ -1,11 +1,11 @@
 (function($) {
     "use strict";
 
-    $('.nav li a').click(function(e) {
+    $('.nav-item').click(function(e) {
         
-                $('.nav li.active').removeClass('active');
+                $('.nav-item.active').removeClass('active');
         
-                var $parent = $(this).parent();
+                var $parent = $this.item();
                 $parent.addClass('active');
                 e.preventDefault();
             });

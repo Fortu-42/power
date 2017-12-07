@@ -24,6 +24,18 @@ nav.navbar {
   nav.navbar li.nav-item a.nav-link {
     padding: 30px 15px;
     font-weight: bolder; }
+    nav.navbar li.nav-item a.nav-link .active:nth-child(1) {
+      color: white;
+      background-color: rgba(235, 48, 48, 0.8); }
+    nav.navbar li.nav-item a.nav-link .active:nth-child(2) {
+      color: white;
+      background-color: rgba(238, 202, 43, 0.8); }
+    nav.navbar li.nav-item a.nav-link .active:nth-child(3) {
+      color: white;
+      background-color: rgba(48, 235, 64, 0.8); }
+    nav.navbar li.nav-item a.nav-link .active:nth-child(4) {
+      color: white;
+      background-color: rgba(31, 185, 231, 0.8); }
   nav.navbar li.nav-item:nth-child(1):hover, nav.navbar li.nav-item:nth-child(1):active, nav.navbar li.nav-item:nth-child(1):focus {
     color: white;
     background-color: rgba(235, 48, 48, 0.8); }
@@ -35,7 +47,7 @@ nav.navbar {
     background-color: rgba(48, 235, 64, 0.8); }
   nav.navbar li.nav-item:nth-child(4):hover, nav.navbar li.nav-item:nth-child(4):active, nav.navbar li.nav-item:nth-child(4):focus {
     color: white;
-    background-color: rgba(48, 51, 235, 0.8); }
+    background-color: rgba(31, 185, 231, 0.8); }
 
 .navbar-nav > li.nav-item > a.nav-link,
 .navbar-nav > li.nav-item > a.nav-link {
@@ -83,8 +95,28 @@ header.business-header {
     border-width: 1px;
     border-color: white; }
 
+h2.phead {
+  font-size: 60px; }
+
+.plead {
+  font-size: 20px; }
+
+a.btn.btn-primary.btn-lg {
+  padding: 15px 30px;
+  width: 250px;
+  background-color: rgba(31, 185, 231, 0.8); }
+
+.chead {
+  font-size: 50px; }
+
+.clead {
+  font-size: 15px; }
+
 .card {
   height: 100%; }
+
+.card-img-top.img {
+  height: -3vh; }
 
 @media (min-width: 992px) {
   body {

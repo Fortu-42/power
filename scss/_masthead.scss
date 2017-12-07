@@ -23,8 +23,35 @@
    }
 
    nav.navbar{
+    padding: 0;
+    margin: 0;
     li.nav-item{
         a.nav-link{
+            
+            .active{
+                &:nth-child(1){
+                        color:white;
+                        background-color: rgba(235, 48, 48, .8);
+                    
+                }
+                &:nth-child(2){
+
+                        color:white;
+                        background-color: rgba(238, 202, 43, .8);
+                    
+                }
+                &:nth-child(3){
+
+                        color:white;
+                        background-color: rgba(48, 235, 64, .8);
+                    
+                }
+                &:nth-child(4){
+
+                        color:white;
+                        background-color: rgba(31, 185, 231, 0.8);
+                }      
+            }
             padding: 30px 15px;
             font-weight: bolder;
         }
@@ -49,14 +76,13 @@
         &:nth-child(4){
             &:hover,&:active,&:focus{
                 color:white;
-                background-color: rgba(48, 51, 235, .8);
+                background-color: rgba(31, 185, 231, 0.8);
             }
         }
 
 
     }
-    padding: 0;
-    margin: 0;
+    
 }
 
 
@@ -125,6 +151,34 @@
   
 }
 
+
+h2.phead{
+    font-size: 60px;
+
+}
+
+.plead{
+    font-size: 20px;
+}
+
+a.btn.btn-primary.btn-lg{
+    padding: 15px 30px;
+    width: 250px;
+    background-color: rgba(31, 185, 231, 0.8);
+}
+
+
+
+
+.chead{
+    font-size:50px;
+}
+
+.clead{
+    font-size: 15px;
+}
+
+
 .card {
   height: 100%;
 }
@@ -136,6 +190,10 @@
 //     // padding: 0;
 //     display: none;
 //    }
+
+.card-img-top.img{
+    height: -3vh;
+}
   
   @media (min-width: 992px) {
     body {
