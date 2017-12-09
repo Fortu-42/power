@@ -24,27 +24,27 @@ nav.navbar {
   nav.navbar li.nav-item a.nav-link {
     padding: 30px 15px;
     font-weight: bolder; }
-    nav.navbar li.nav-item a.nav-link .active:nth-child(1) {
-      color: white;
-      background-color: rgba(235, 48, 48, 0.8); }
-    nav.navbar li.nav-item a.nav-link .active:nth-child(2) {
-      color: white;
-      background-color: rgba(238, 202, 43, 0.8); }
-    nav.navbar li.nav-item a.nav-link .active:nth-child(3) {
-      color: white;
-      background-color: rgba(48, 235, 64, 0.8); }
-    nav.navbar li.nav-item a.nav-link .active:nth-child(4) {
-      color: white;
-      background-color: rgba(31, 185, 231, 0.8); }
+  nav.navbar li.nav-item:nth-child(1) .active {
+    color: white;
+    background-color: rgba(235, 48, 48, 0.8); }
   nav.navbar li.nav-item:nth-child(1):hover, nav.navbar li.nav-item:nth-child(1):active, nav.navbar li.nav-item:nth-child(1):focus {
     color: white;
     background-color: rgba(235, 48, 48, 0.8); }
+  nav.navbar li.nav-item:nth-child(2) .active {
+    color: white;
+    background-color: rgba(238, 202, 43, 0.8); }
   nav.navbar li.nav-item:nth-child(2):hover, nav.navbar li.nav-item:nth-child(2):active, nav.navbar li.nav-item:nth-child(2):focus {
     color: white;
     background-color: rgba(238, 202, 43, 0.8); }
+  nav.navbar li.nav-item:nth-child(3) .active {
+    color: white;
+    background-color: rgba(48, 235, 64, 0.8); }
   nav.navbar li.nav-item:nth-child(3):hover, nav.navbar li.nav-item:nth-child(3):active, nav.navbar li.nav-item:nth-child(3):focus {
     color: white;
     background-color: rgba(48, 235, 64, 0.8); }
+  nav.navbar li.nav-item:nth-child(4) .active {
+    color: white;
+    background-color: rgba(31, 185, 231, 0.8); }
   nav.navbar li.nav-item:nth-child(4):hover, nav.navbar li.nav-item:nth-child(4):active, nav.navbar li.nav-item:nth-child(4):focus {
     color: white;
     background-color: rgba(31, 185, 231, 0.8); }
@@ -101,7 +101,7 @@ h2.phead {
 .plead {
   font-size: 20px; }
 
-a.btn.btn-primary.btn-lg {
+a.btn.btn-primary {
   padding: 15px 30px;
   width: 250px;
   background-color: rgba(31, 185, 231, 0.8); }
