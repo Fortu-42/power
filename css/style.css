@@ -120,7 +120,11 @@ a.btn.btn-primary {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px; } }
+    padding-top: 56px; }
+  .modal-content.esp {
+    width: 80vw;
+    position: relative;
+    right: 10vw; } }
 
 @media (max-width: 1010px) {
   header.business-header h1 {

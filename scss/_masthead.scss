@@ -197,6 +197,12 @@ a.btn.btn-primary{
     body {
       padding-top: 56px;
     }
+    .modal-content.esp{
+        width: 80vw;
+        position: relative;
+        right: 10vw;
+    }
+    
   }
 
   @media (max-width: 1010px) {
