@@ -193,9 +193,38 @@ a.btn.btn-primary{
     height: -3vh;
 }
   
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     body {
       padding-top: 56px;
     }
   }
+
+  @media (max-width: 1010px) {
+    header.business-header{
+        h1{
+            font-size: 50px;
+            padding-top: 15vh;
+        }
+       }
+     }
+   
+
+  @media (max-width: 1010px) {
+ header.business-header{
+     h1{
+         font-size: 50px;
+     }
+    }
+
+.btn.btn-primary.contacts{
+    width: 190px;
+    padding-left: 20px;
+    margin-left: -10px;
+    
+
+}
+
+  }
+
+
   
